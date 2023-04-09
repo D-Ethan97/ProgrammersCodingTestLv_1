@@ -8,7 +8,6 @@ public class codingTestLV_1_02 {
             if (Math.pow(x,2) == n ) {
                 answer = ((long)Math.sqrt(n)+1);
                 answer=(long)(Math.pow(answer,2));
-                System.out.println(answer);
                 return answer;
             }else{
 
@@ -18,7 +17,7 @@ public class codingTestLV_1_02 {
     }
 
     public static void main(String[] args){
-        long n =3;
-        solution(n);
+        long n = 121;
+        System.out.println(solution(n));
     }
 }
