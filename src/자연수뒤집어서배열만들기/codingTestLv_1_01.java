@@ -4,7 +4,6 @@ import java.util.Arrays;
          public static int[] solution(long n) {
              String str = Long.toString(n);
              int[] answer = new int[str.length()];
-
              for (int i=0;i<str.length();i++) {
                  answer[i] = (int)(n%10); //2345 % 10 == 5
                  n /= 10; // n = n /10
